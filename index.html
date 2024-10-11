@@ -5,16 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+    .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-               <h3 class="text-7xl">Be the Penguins
-                of Winter</h3>
+    <header class="bg-amber-50 py-20 px-4 md:px-32">
+        <nav>
+
+        </nav>
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="space-y-3">
+               <h3 class="text-7xl uppercase bebas-neue-regular ">
+                <span class="text-[#FABE4C]">Be the Penguins</span>
+                <br>of Winter</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry.</p>
+                <button class="py-4 px-9 rounded-xl bg-gradient-to-r from-[#A4BC46] to-[#85A019] uppercase text-white font-medium"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>BUY NOW</button>
             </div>
             <div>
-
+               <img src="images/model.png" alt="">
             </div>
         </div>
     </header>
